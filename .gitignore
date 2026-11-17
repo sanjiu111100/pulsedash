@@ -1,0 +1,9 @@
+# runtime artifacts
+out/*.sqlite3
+out/*.sqlite3-journal
+__pycache__/
+*.py[cod]
+
+# keep the two screenshots that the README references
+!out/dashboard.png
+!out/dashboard-degraded.png

@@ -1,0 +1,29 @@
+{
+  "project": "PulseDash",
+  "output_dir": "out",
+  "sources": {
+    "weather": {
+      "enabled": true,
+      "kind": "wttr",
+      "city": "Shanghai"
+    },
+    "fx": {
+      "enabled": true,
+      "kind": "frankfurter",
+      "base": "USD",
+      "quote": "CNY",
+      "days": 30
+    },
+    "github": {
+      "enabled": true,
+      "kind": "github",
+      "repos": ["python/cpython", "pandas-dev/pandas", "microsoft/vscode"]
+    }
+  },
+  "http": {
+    "timeout": 15,
+    "retries": 3,
+    "backoff_ms": 800,
+    "min_interval_ms": 300
+  }
+}
